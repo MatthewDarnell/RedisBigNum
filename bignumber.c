@@ -2,7 +2,7 @@
     2018 Matthew Darnell
 */
 #include <gmp.h>
-#include <strings.h>
+#include <string.h>
 #include "redismodule.h"
 /**
     BIGNUM <key> <incrby/set> <new value>
