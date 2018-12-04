@@ -31,6 +31,8 @@ OK
 "0"
 ```
 
+#### Note, this module only works on whole numbers. Decimals are not supported. 
+
 # Building
 
 RedisBigNum only requires one external dependency, `libgmp`.
