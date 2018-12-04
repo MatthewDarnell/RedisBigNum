@@ -7,9 +7,11 @@ A simple Redis module for setting and incrementing big numbers
 ## Loading the module
 Load the module through redis either through:
 
-`redis-server --loadmodule /path/to/bignum.so`
+`redis-server --loadmodule /path/to/bignumber.so`
 
-or inside redis.conf `loadmodule /path/to/bignum.so`
+or inside redis.conf `loadmodule /path/to/bignumber.so`
+
+or at runtime `MODULE LOAD /path/to/bignumber.so`
 
 ## Using the module
 ```$ redis-cli
@@ -31,7 +33,7 @@ OK
 
 # Building
 
-RedisBigNum only requires one external dependency, libgmp.
+RedisBigNum only requires one external dependency, `libgmp`.
 
 
 On Mac: `brew install gmp`
