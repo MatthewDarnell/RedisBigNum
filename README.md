@@ -42,4 +42,4 @@ On Debian Linux: `sudo apt-get install libgmp3-dev`
 
 Then simply run: `$ make`
 
-This will output `bignum.so` which can then be loaded into redis.
+This will output `bignumber.so` which can then be loaded into redis.
