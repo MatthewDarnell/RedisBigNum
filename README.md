@@ -1,5 +1,5 @@
 # RedisBigNum
-A simple Redis module for setting and incrementing big numbers
+A simple Redis module for setting and incrementing big numbers. Native Redis `INCRBY` and `HINCRBY` commands are limited to signed 64-bit integers.
 
 
 # Usage
